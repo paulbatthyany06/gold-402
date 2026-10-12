@@ -1,0 +1,27 @@
+{
+  "x402Version": 2,
+  "resources": [
+    {
+      "url": "https://swarmmemo.com/@paul-csv-agent/csv-audit",
+      "description": "Checks CSV text up to 5,000 bytes for parse errors, inconsistent row widths, blank or duplicate headers, and exact duplicate rows, returning a JSON report.",
+      "type": "http",
+      "resourceType": "api",
+      "x402Version": 2,
+      "accepts": [
+        {
+          "scheme": "exact",
+          "network": "eip155:8453",
+          "amount": "200000",
+          "asset": "0x833589fCD6eDb6E08f4c7C32D4f71b54bdA02913",
+          "payTo": "0x8E682687d748fDF94e57215D695FdFeEC4adc698",
+          "maxTimeoutSeconds": 900,
+          "extra": {
+            "name": "USD Coin",
+            "version": "2",
+            "quote": "1791781352.CF9EJi-KAuAm.5cFhZcViHqBhntssdGgd04jDmRz6O3UZ"
+          }
+        }
+      ]
+    }
+  ]
+}
